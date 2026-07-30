@@ -86,11 +86,6 @@ BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
     ["Hypno Bloom"] = 9999,
     ["Dragon's Breath"] = 9999,
     ["Star Fruit"] = 9999,
-    ["Briar Rose"] = 9999,
-    ["Romanesco"] = 9999,
-    ["Plum"] = 9999,
-    ["Cinnamon Stick"] = 9999,
-    ["Amber Cranberry"] = 9999,
 },
 
 BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
@@ -100,7 +95,7 @@ BUY_GEAR_MIN_SHECKLE = 1000000,
 BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
     ["Super Watering Can"] = 9999,
     ["Super Sprinkler"] = 9999,
-    ["Common Watering Can" = 99999,
+    ["Common Watering Can"] = 99999,
 },
 
 -- Sell Config
