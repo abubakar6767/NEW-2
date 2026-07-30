@@ -151,7 +151,7 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Butterfly"] = 1,
             ["Raccoon"] = 1,
             ["BaldEagle"] = 1,
-            ["FireFly"] = 1,
+            ["Firefly"] = 1,
         },
  
         ["Unexpectedthe2nd"] = {
