@@ -161,6 +161,8 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Rare Sprinkler"] = 200,
             ["Trowel"] = 10000,
             ["Basic Pot"] = 10,
+            ["Common Watering Can"] = 500,
+
  
         },
     },
