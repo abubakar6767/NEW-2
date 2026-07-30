@@ -3,7 +3,7 @@ script_key = "AcANjHiAqTzdSnOZgMCtjafGwuAFylRe";
 getgenv().GAG2Config = { FPS_CAP = 5, -- MUST USE 5+ FPS ADD_FRIEND = true, AUTO_UPDATE_RESTART = true, COLLECT_FRUIT_DELAY = 20,
 
 -- Pet Config
-MAX_PET_EQUIP = 6,
+MAX_PET_EQUIP = 0,
 BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
     ["Firefly"] = 99,
     ["BlackDragon"] = 99,
@@ -132,35 +132,46 @@ FOCUS_COLLECT_DROPPED_SEED = false,
 EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
 -- Auto Mail
-AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount } ["CogLambo"] = { -- seeds ["Venus Fly Trap"] = 1, ["Venom Spitter"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["Mango"] = 100, ["Hypno Bloom"] = 1, ["Sun Bloom"] = 1, ["Star Fruit"] = 1, ["Poison Apple"] = 1, ["Briar Rose"] = 1, ["Romanesco"] = 1, ["Plum"] = 1, ["Cinnamon Stick"] = 1, ["Amber Cranberry"] = 1,
-
-     },
-
-    ["CogoLambo"] = {
-        -- pets
-        ["BlackDragon"] = 1,
-        ["IceSerpent"] = 1,
-        ["Unicorn"] = 1,
-        ["Butterfly"] = 1,
-        ["Raccoon"] = 1,
-        ["BaldEagle"] = 1,
-        ["FireFly"] = 1,
-
+-- Auto Mail
+   AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount }
+        ["CogLambo"] = {
+            -- seeds
+            ["Venus Fly Trap"] = 1,
+            ["Venom Spitter"] = 1,
+            ["Moon Bloom"] = 1,
+            ["Dragon's Breath"] = 1,
+            ["Sunflower"] = 0,
+            ["Hypno Bloom"] = 1,
+            ["Sun Bloom"] = 1,
+            ["Star Fruit"] = 1,
+            ["Poison Apple"] = 1,
+ 
+         },
+ 
+        ["CogoLambo"] = {
+            -- pets
+            ["BlackDragon"] = 1,
+            ["IceSerpent"] = 1,
+            ["Unicorn"] = 1,
+            ["Butterfly"] = 1,
+            ["Raccoon"] = 1,
+            ["BaldEagle"] = 1,
+            ["FireFly"] = 1,
+        },
+ 
+        ["Unexpectedthe2nd"] = {
+            ["Super Watering Can"] = 5,
+            ["Legendary Sprinkler"] = 10,
+            ["Super Sprinkler"] = 5,
+            ["Rare Sprinkler"] = 200,
+            ["Trowel"] = 10000,
+            ["Basic Pot"] = 10,
+ 
+        },
     },
-
-    ["Unexpectedthe2nd"] = {
-        ["Super Watering Can"] = 5,
-        ["Legendary Sprinkler"] = 10,
-        ["Super Sprinkler"] = 5,
-        ["Rare Sprinkler"] = 200,
-        ["Trowel"] = 10000,
-        ["Basic Pot"] = 10,
-
-    },
-},
-
-AUTO_MAIL_DELAY = 10,  -- Seconds
-COLLECT_MAIL = true,
+ 
+    AUTO_MAIL_DELAY = 20,  -- Seconds
+    COLLECT_MAIL = true,
 
 -- Discord Config
 WEBHOOK_PET_NAME = {},
