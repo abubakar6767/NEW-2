@@ -86,6 +86,9 @@ BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
     ["Hypno Bloom"] = 9999,
     ["Dragon's Breath"] = 9999,
     ["Star Fruit"] = 9999,
+    ["Briar Rose"] = 9999,
+    ["Romanesco"] = 9999,    
+        
 },
 
 BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
