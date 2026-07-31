@@ -143,6 +143,8 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Sun Bloom"] = 1,
             ["Star Fruit"] = 1,
             ["Poison Apple"] = 1,
+            ["Briar Rose"] = 1,
+            ["Romanesco"] = 1,
  
          },
  
