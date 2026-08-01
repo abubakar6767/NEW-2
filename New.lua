@@ -103,7 +103,10 @@ BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
     ["Super Watering Can"] = 9999,
     ["Super Sprinkler"] = 9999,
     ["Common Watering Can"] = 99999,
-    ["Harp"] = 99999,  
+    ["Harp"] = 99999, 
+    ["Syrup Super Watering Can"] = 9999,
+    ["Syrup Super Sprinkler"] = 99999,
+    ["Super Magic Mall"] = 99999,    
 },
 
 -- Sell Config
@@ -134,7 +137,7 @@ FOCUS_COLLECT_DROPPED_SEED = false,
 
 EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
--- Auto Mail
+
 -- Auto Mail
    AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount }
         ["CogLambo"] = {
@@ -169,6 +172,9 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Legendary Sprinkler"] = 50,
             ["Super Sprinkler"] = 5,
             ["Trowel"] = 10000,
+            ["Super Magic Mall"] = 1,
+            ["Syrup Super Watering Can"] = 1,
+            ["Syrup Super Sprinkler"] = 1,
 
  
         },
