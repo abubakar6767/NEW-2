@@ -134,15 +134,14 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
    AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount }
         ["CogLambo"] = {
             -- seeds
-            ["Venus Fly Trap"] = 1,
-            ["Venom Spitter"] = 1,
+            ["Venus Fly Trap"] = 10,
+            ["Venom Spitter"] = 10,
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1,
-            ["Sunflower"] = 0,
             ["Hypno Bloom"] = 1,
             ["Sun Bloom"] = 1,
             ["Star Fruit"] = 1,
-            ["Poison Apple"] = 1,
+            ["Poison Apple"] = 10,
             ["Briar Rose"] = 1,
             ["Romanesco"] = 1,
  
@@ -152,21 +151,18 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             -- pets
             ["BlackDragon"] = 1,
             ["IceSerpent"] = 1,
-            ["Unicorn"] = 1,
-            ["Butterfly"] = 1,
-            ["Raccoon"] = 1,
-            ["BaldEagle"] = 1,
-            ["Firefly"] = 1,
+            ["Unicorn"] = 100,
+            ["Butterfly"] = 5,
+            ["Raccoon"] = 5,
+            ["BaldEagle"] = 100,
+            ["Firefly"] = 50,
         },
  
         ["Unexpectedthe2nd"] = {
-            ["Super Watering Can"] = 5,
-            ["Legendary Sprinkler"] = 10,
+            ["Super Watering Can"] = 10,
+            ["Legendary Sprinkler"] = 50,
             ["Super Sprinkler"] = 5,
-            ["Rare Sprinkler"] = 200,
             ["Trowel"] = 10000,
-            ["Basic Pot"] = 10,
-            ["Common Watering Can"] = 500,
 
  
         },
