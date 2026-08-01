@@ -88,6 +88,10 @@ BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
     ["Star Fruit"] = 9999,
     ["Briar Rose"] = 9999,
     ["Romanesco"] = 9999,    
+    ["Amber Cranberry"] = 9999,
+    ["Conifer Cone"] = 9999,
+    ["Maple Pomegrante"] = 9999,
+    ["Conifer Cone Sapling"] = 9999,    
         
 },
 
@@ -99,6 +103,7 @@ BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
     ["Super Watering Can"] = 9999,
     ["Super Sprinkler"] = 9999,
     ["Common Watering Can"] = 99999,
+    ["Harp"] = 99999,  
 },
 
 -- Sell Config
@@ -141,10 +146,14 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Star Fruit"] = 1,
             ["Briar Rose"] = 1,
             ["Romanesco"] = 1,
+            ["Amber Cranberry"] = 1,
+            ["Conifer Cone"] = 1,
+            ["Maple Pomegrante"] = 1,
+            ["Conifer Cone Sapling"] = 1,
  
          },
  
-        ["CogoLambo"] = {
+        [" CogoLambo"] = {
             -- pets
             ["BlackDragon"] = 1,
             ["IceSerpent"] = 1,
