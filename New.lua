@@ -148,11 +148,11 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             -- pets
             ["BlackDragon"] = 1,
             ["IceSerpent"] = 1,
-            ["Unicorn"] = 100,
+            ["Unicorn"] = 10,
             ["Butterfly"] = 5,
-            ["Raccoon"] = 5,
+            ["Raccoon"] = 1,
             ["BaldEagle"] = 100,
-            ["Firefly"] = 50,
+            ["Firefly"] = 10,
         },
  
         ["Unexpectedthe2nd"] = {
