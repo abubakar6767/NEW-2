@@ -106,7 +106,7 @@ BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
     ["Harp"] = 99999, 
     ["Syrup Super Watering Can"] = 9999,
     ["Syrup Super Sprinkler"] = 99999,
-    ["Super Magic Mall"] = 99999,    
+    ["Super Magic Mail"] = 99999,    
 },
 
 -- Sell Config
@@ -140,7 +140,7 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
 -- Auto Mail
    AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount }
-        ["CogLambo"] = {
+        ["EMPTYxGG"] = {
             -- seeds
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1,
@@ -156,7 +156,7 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
  
          },
  
-        [" CogoLambo"] = {
+        ["CogoLambo"] = {
             -- pets
             ["BlackDragon"] = 1,
             ["IceSerpent"] = 1,
