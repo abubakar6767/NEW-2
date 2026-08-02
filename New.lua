@@ -172,7 +172,7 @@ EXPAND_PLOT = 0,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
             ["Legendary Sprinkler"] = 50,
             ["Super Sprinkler"] = 5,
             ["Trowel"] = 10000,
-            ["Super Magic Mall"] = 1,
+            ["Super Magic Mail"] = 1,
             ["Syrup Super Watering Can"] = 1,
             ["Syrup Super Sprinkler"] = 1,
 
